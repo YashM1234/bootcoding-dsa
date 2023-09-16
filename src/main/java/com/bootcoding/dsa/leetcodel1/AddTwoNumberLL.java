@@ -34,13 +34,12 @@ public class AddTwoNumberLL {
     }
 }
 //Class representing single node in linked list
-class ListNode{
+class ListNode {
     int val;
     ListNode next;
-    //Create a constructor with one parameter
-    public ListNode(int val){
-        this.val = val;
-    }
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }
 
 //Class containing logic to add two linked list numbers
