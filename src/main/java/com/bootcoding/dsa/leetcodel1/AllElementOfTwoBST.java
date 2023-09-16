@@ -30,17 +30,17 @@ public class AllElementOfTwoBST {
 }
 
 //This class representation each tree node itself
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    public TreeNode(int val) {
-        this.val = val;
-        this.left = null;
-        this.right = null;
-    }
-}
+//class TreeNode {
+//    int val;
+//    TreeNode left;
+//    TreeNode right;
+//
+//    public TreeNode(int val) {
+//        this.val = val;
+//        this.left = null;
+//        this.right = null;
+//    }
+//}
 
 //Class containing all logic to convert BST to Greater
 class AllElementBSTSolution {
