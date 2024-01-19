@@ -1,6 +1,6 @@
 package com.bootcoding.dsa.leetcodel1;
 /*
-Leetcode Q-1071 WAP to find Greatest Common Divisor of Strings
+Leetcode Q-1071 WAP to find The Greatest Common Divisor of Strings
  */
 public class GreatestCommonDivisorStrings {
     public static void main(String[] args) {
