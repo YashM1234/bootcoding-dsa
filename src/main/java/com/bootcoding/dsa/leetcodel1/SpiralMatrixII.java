@@ -20,7 +20,7 @@ public class SpiralMatrixII {
         int[][] matrix = new int[n][n];
         int number = 1;
         int top = 0;
-        int bottom = n - 1;;
+        int bottom = n - 1;
         int left = 0;
         int right = n - 1;
 
