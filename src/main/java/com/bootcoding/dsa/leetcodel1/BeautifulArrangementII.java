@@ -22,16 +22,14 @@ public class BeautifulArrangementII {
     //Method Definition
     public static int[] constructArray(int n, int k) {
         int[] result = new int[n];
+        int x = 0;
 
-        int low = 0;
-        int high = k + 1;
-
-        for(int i = 0; i <= k; i++){
-            result[i] = (i % 2 == 0) ? low++ : high--;
+        for(int i = 1; i < n - k; i++){
+            result[x++] = i;
         }
 
-        for(int i = k + 1; i < n; i++){
-            result[i] = i + 1;
+        for(int i = 0; i <= k; i++){
+            result[x++] = (i % 2 == 0) ? (n - k + i / 2) : (n - i / 2);
         }
 
         return result;
